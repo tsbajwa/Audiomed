@@ -6,12 +6,12 @@ export default {
     main: './src/index.js',
   },
   output: {
-    path: __dirname + '/src',
+    path: `${__dirname}/src`,
     filename: 'index_bundle.js',
   },
 
   plugins: [
-    new HtmlWebpackPlugin({ template: __dirname + '/src/index.html', filename: 'index.html', inject: 'body' }),
+    new HtmlWebpackPlugin({ template: `${__dirname}/src/index.html`, filename: 'index.html', inject: 'body' }),
     new ExtractTextPlugin('styles.css'),
   ],
 

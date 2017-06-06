@@ -1,17 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
 require('./index.scss');
 
-function App() {
-  return (
-<div>
-Hello World!
-</div>
-  );
-}
-
-
 ReactDOM.render(
-<App />, document.getElementById('app'),
+<App />,  document.getElementById('app'),
 );
