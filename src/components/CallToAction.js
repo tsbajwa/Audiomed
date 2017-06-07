@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
-export default function CallToAction() {
+class CallToAction extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: 'hey hey buddies',
+    };
+  }
+  render() {
     return (
-        <div>Hey hey heeeey</div>
-    )
+      <div className='callToAction'>
+        <h3>{this.state.text}</h3>
+      </div>
+    );
+  }
 }
+
+export default CallToAction;
