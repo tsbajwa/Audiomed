@@ -24,7 +24,5 @@ h1 {
 }
 
 
-.btn {
-    background: #E35071;
-}
-
+.btn {background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)}
+.btn:hover { background-position: right center; }
