@@ -14,7 +14,7 @@ h1 {
 h2 {
   font-size: 14px;
   font-weight: lighter;
-  color: transparent; 
+  color: $light-blue; 
 }
 
 h4 {
@@ -22,4 +22,6 @@ h4 {
   color: $white;
   font-size: 14px;
   font-weight: 300;
+  line-height: 18px;
 }
+

@@ -4,9 +4,13 @@
   align-items: center;
   background: $blue;
   text-align: center;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
 }
 
 .banner img {
   padding-top: 20px;
+}
+
+.banner h2 {
+  //display: none;
 }
