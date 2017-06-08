@@ -1,28 +1,9 @@
-body {
-    background-color: blue;
-    font-size: 16px;
-}
-
-h1 {
-    color: white;
-    font-size: 44px;
 
 
-}
-.container {
-  max-width: 1024px;
-  padding: 0 90px 0 90px;
-  margin: 0 auto;
-}
-
-.container-banner {
-    background: #01516E;
-}
-
-.callToAction {
-    background: #50E3C2;
-}
+@import './helpers/breakpoints';
+@import './helpers/color';
+@import './helpers/typography';
 
 
-.btn {background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)}
-.btn:hover { background-position: right center; }
+@import './components/banner.scss';
+
