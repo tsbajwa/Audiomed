@@ -31,6 +31,9 @@ export default function Benefit() {
             </li>
           ))}
       </ul>
+      <div>
+        <img src='../assets/smiling-doctor.png'></img>
+      </div>
     </div>
   );
 }
