@@ -5,8 +5,12 @@ import Button from './Button';
 export default function CallToAction(props) {
   return (
     <div className='callToAction'>
-      {props.text}
-      <Button />
+      <h4>{props.text}</h4>
+      <Button
+      btn={props.buttonClass}
+      link={props.link}
+      buttonText={props.buttonText}
+      />
     </div>
   );
 }
@@ -16,4 +20,11 @@ CallToAction.defaultProps = {
 };
 CallToAction.propTypes = {
   text: PropTypes.string.isRequired,
+};
+
+
+CallToAction.propTypes = {
+  buttonClass: PropTypes.string,
+  buttonText: PropTypes.string,
+  link: PropTypes.string,
 };
