@@ -1,5 +1,6 @@
 body {
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  font-size: 14px;
 }
 
 h1 {
@@ -7,8 +8,6 @@ h1 {
   color: $white;
   font-weight: 400;
   letter-spacing: 5.26px;
-
-
 }
 
 h2 {
@@ -17,6 +16,10 @@ h2 {
   color: $light-blue; 
 }
 
+h3 {
+  font-size: 16px;
+  font-family: 'Montserrat'
+}
 h4 {
   font-family: 'Lato';
   color: $white;
