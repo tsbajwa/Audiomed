@@ -18,8 +18,8 @@ const youtube = [
 
 export default function Demo() {
   return (
-    <div>
-      <div className='demo'>
+    <div className='demo'>
+      <div>
         <h4>A glimpse of what you get</h4>
       </div>
       <div>
