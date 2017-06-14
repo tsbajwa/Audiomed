@@ -4,13 +4,12 @@ const modules = ['Skeletal', 'Alimentary', 'Kidney-Urine', 'Integumental', 'Endo
 
 export default function Module() {
   return (
-      <div>
+      <div className='module'>
         <h4>Twelve Comphrensive Modules</h4>
-        <p>Audiomed comes in 12 modules covering all aspects of anatomy.</p>
-        <div className=''>
+        <div className='module-container'>
           {modules.map(module =>
             (
-              <div key={module}>
+              <div key={module} className='module-single'>
                 <img src= {`../assets/${module}.png`}></img>
                 <p>{module}</p>
               </div>

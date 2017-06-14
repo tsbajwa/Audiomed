@@ -1,0 +1,16 @@
+.module {
+  h4 {
+    color: $black;
+  }
+}
+
+.module-container {
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+}
+
+.module-single {
+   align-content: space-around;
+   width: 200px;
+}
