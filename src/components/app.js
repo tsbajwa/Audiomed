@@ -4,6 +4,7 @@ import CallToAction from './CallToAction';
 import Benefit from './Benefit';
 import Demo from './Demo';
 import Module from './Module';
+import FAQ from './FAQ';
 
 export default function App() {
   return (
@@ -15,6 +16,10 @@ export default function App() {
       <Benefit />
       <Demo />
       <Module />
+      <FAQ />
+      <CallToAction
+      text='Get a sample of 10 free mnemonics delivered straight to your inbox'
+      />
     </div>
   );
 }
