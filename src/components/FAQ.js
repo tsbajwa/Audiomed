@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FAQ() {
   return (
-    <div>
+    <div className='faq'>
       <div>
         <h4>Frequently Asked Questions</h4>
       </div>
