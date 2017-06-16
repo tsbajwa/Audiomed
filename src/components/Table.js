@@ -4,15 +4,15 @@ import Button from './Button';
 
 export default function Table(props) {
   return (
-    <div>
+    <div className='table'>
       <ul>
         <li>{props.title}</li>
         <li>
-          <div>
+          <div className ='image'>
             <img src={props.img}></img>
           </div>
         </li>
-        <li>{props.price}</li>
+        <li className='price'>{props.price}</li>
         {props.info.map((info, index) => (<li key ={index}>{info}</li>))}
         <Button
         link={props.link}/>
