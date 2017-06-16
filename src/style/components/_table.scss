@@ -1,20 +1,28 @@
 
-
+.pricing-table {
+  margin: 0 auto;
+  width: 300px;
+}
 .table {
-
   .info {
-  background-color: #fff;
+  background-color: $white;
   border-bottom: 1px solid #eee;
   padding: 1.2em;
+  color: $gray;
+  }
+  .info:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0px;
   }
   .title {
     font-size: 25px;
+    padding: 10px;
   }
   .price {
     font-size: 30px;
   }
   .image {
-    
+
   }
 }
 
