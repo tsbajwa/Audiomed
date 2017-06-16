@@ -4,21 +4,21 @@ import Table from './Table';
 const tableInfo = [
   {
     title: 'Basic',
-    image: '../assets/basic-bundle.png',
+    img: '../assets/basic-bundle.png',
     price: '$37',
-    info: ['info'],
+    info: ['Audio Course', 'Instant access', 'High quality mp3', 'Ongoing support'],
   },
   {
     title: 'Essential',
-    image: '../assets/essential-bundle.png',
+    img: '../assets/essential-bundle.png',
     price: '$57',
-    info: ['info'],
+    info: ['Learning optimization guide', 'Lifetime updates', 'Audio course and Book', 'Instant Access', 'Over 250 mnemonics', 'Ongoing support', 'Printable flash cards'],
   },
   {
     title: 'Deluxe',
-    image: '../assets/deluxe-bundle.png',
-    price: '$97',
-    info: ['moreinfo', 'line two'],
+    img: '../assets/deluxe-bundle.png',
+    price: '$157',
+    info: ['Audio and Book', '6 physical cd package', 'Ongoing support', 'Express mail'],
   },
 ];
 
@@ -29,7 +29,7 @@ export default function PricingTable() {
       (
         <Table
         title={details.title}
-        image={details.title}
+        img={details.img}
         price={details.price}
         info={details.info}
         />

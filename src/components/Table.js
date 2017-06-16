@@ -6,14 +6,14 @@ export default function Table(props) {
   return (
     <div className='table'>
       <ul>
-        <li>{props.title}</li>
+        <li className='title'>{props.title}</li>
         <li>
           <div className ='image'>
             <img src={props.img}></img>
           </div>
         </li>
         <li className='price'>{props.price}</li>
-        {props.info.map((info, index) => (<li key ={index}>{info}</li>))}
+        {props.info.map((info, index) => (<li key ={index} className='info'>{info}</li>))}
         <Button
         link={props.link}/>
       </ul>
@@ -30,7 +30,7 @@ Table.propTypes = {
 
 Table.defaultProps = {
   title: 'Titlee',
-  img: '../assets/basic-bundle.png',
+  img: '../assets/essential-bundle.png',
   info: ['item1', 'info2', 'Soon'],
   price: '$39',
 };
