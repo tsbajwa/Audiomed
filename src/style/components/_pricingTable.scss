@@ -1,0 +1,16 @@
+
+@media screen and (max-width: $phone-only) {
+  .pricing-table {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: $tablet-potrait-up)  {
+  .pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 25px; 
+  }
+}

@@ -1,8 +1,5 @@
 
-.pricing-table {
-  margin: 0 auto;
-  width: 300px;
-}
+
 .table {
   .info {
   background-color: $white;
@@ -21,18 +18,15 @@
   .price {
     font-size: 30px;
   }
-  .image {
-
-  }
 }
 
 
 
 
- @media screen and (max-width: $phone-only) {
-   
+ @media screen and (min-width: $tablet-potrait-up) {
+   .table {
+     .info:last-of-type {
+       margin: 0 0 20px 0;
+     }
+   }
  }
-//   flex: 0 0 100%;
-//     margin-bottom: 1em;
-    //width: 100%;
-// }

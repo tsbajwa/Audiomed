@@ -3,7 +3,7 @@ import Quote from './Quote';
 
 export default function Testimonial() {
   return (
-    <div>
+    <div className='testimonial'>
       <Quote />
       <Quote />
     </div>

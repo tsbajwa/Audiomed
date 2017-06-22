@@ -2,12 +2,34 @@
   h3 {
     padding-top: 10px;
   }
-  img {
-    display: none;
-  }
-  .icon {
-    display: none;
-  }
+
+  display: flex;
+  justify-content: space-between;
+ 
+  // img {
+  //   display: none;
+  // }
+
 }
 
 
+
+@media screen and (max-width: $phone-only) {
+  .benefit {
+    .icon, img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-potrait-up) {
+  .benefit {
+    text-align: left;
+    padding: 0 0 0 10px;
+
+    .img-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -2,3 +2,15 @@
   background: $green;
 }
 
+@media screen and (min-width: $tablet-potrait-up) {
+  .callToAction {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    h4 {
+      margin: 1em 20px 1em 0;
+
+    }
+  }
+}

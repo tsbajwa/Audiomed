@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export default function Button(props) {
   return (
-    <div>
+    <div className='btnContainer'>
       <a type='button' href={props.link}className={props.buttonClass}>{props.buttonText}</a>
     </div>
   );
