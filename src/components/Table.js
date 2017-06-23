@@ -4,7 +4,7 @@ import Button from './Button';
 
 export default function Table(props) {
   return (
-    <div className='table'>
+    <div className={`table table-${props.title}`}>
       <ul>
         <li className='title'>{props.title}</li>
         <li>
@@ -14,8 +14,10 @@ export default function Table(props) {
         </li>
         <li className='price'>{props.price}</li>
         {props.info.map((info, index) => (<li key ={index} className='info'>{info}</li>))}
-        <Button
+        <li className='info'>
+          <Button
         link={props.link}/>
+        </li>
       </ul>
     </div>
   );
@@ -26,6 +28,7 @@ Table.propTypes = {
   img: PropTypes.any,
   info: PropTypes.array,
   price: PropTypes.string,
+  link: PropTypes.string,
 };
 
 Table.defaultProps = {

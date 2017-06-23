@@ -1,15 +1,15 @@
 
 
 .table {
+  background: $white;
   .info {
-  background-color: $white;
   border-bottom: 1px solid #eee;
   padding: 1.2em;
   color: $gray;
   }
   .info:last-of-type {
-    border-bottom: none;
-    padding-bottom: 0px;
+    padding: 0;
+
   }
   .title {
     font-size: 25px;
@@ -18,7 +18,11 @@
   .price {
     font-size: 30px;
   }
+  .info-list:last-of-type {
+    background: $blue;
+  }
 }
+
 
 
 
@@ -26,9 +30,12 @@
  @media screen and (min-width: $tablet-potrait-up) {
    .table {
      min-width: 200px;
-
-     .info:last-of-type {
-       margin: 0 0 20px 0;
-     }
+     box-shadow: 0 2px 9px 0 rgba(0,0,0,0.05);
+     border-radius: 2px;
+      .info:last-of-type {
+        padding: 5px 0 15px 0;
+      }
    }
  }
+
+
