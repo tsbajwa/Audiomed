@@ -25,6 +25,8 @@
 
  @media screen and (min-width: $tablet-potrait-up) {
    .table {
+     min-width: 200px;
+
      .info:last-of-type {
        margin: 0 0 20px 0;
      }

@@ -8,8 +8,10 @@ ul {
     margin: 0;
     padding: 0;
 }
-// @media screen and (max-width: $phone-only) {
-//   body {
-//     text-align: center;
-//   }
-// }
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: $background;
+}

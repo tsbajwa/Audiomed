@@ -9,3 +9,12 @@
     text-align: left;
   }
 }
+
+
+@media screen and (min-width: $tablet-landscape-up) {
+  .faq {
+    .faq-answers {
+      display: flex;
+    }
+  }
+}

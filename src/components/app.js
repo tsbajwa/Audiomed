@@ -22,7 +22,7 @@ export default function App() {
       <Testimonial />
       <FAQ />
       <CallToAction
-      text='Get a sample of 10 free mnemonics delivered straight to your inbox'
+      text='Get 10 free mnemonics delivered straight to your inbox'
       buttonText='Get Sample'
       />
     </div>

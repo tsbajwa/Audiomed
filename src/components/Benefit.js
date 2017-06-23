@@ -28,7 +28,7 @@ export default function Benefit() {
       <ul>
         {info.map((value, index) => (
             <li key={index}>
-              <div>
+              <div className='benefit-text'>
                 <h3>{value.icon} {value.heading}</h3>
                 <p>{value.paragraph}</p>
               </div>
