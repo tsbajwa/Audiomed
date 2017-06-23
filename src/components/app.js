@@ -7,6 +7,7 @@ import Module from './Module';
 import FAQ from './FAQ';
 import Testimonial from './Testimonial';
 import PricingTable from './PricingTable';
+import Footer from './Footer';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
       text='Get 10 free mnemonics delivered straight to your inbox'
       buttonText='Get Sample'
       />
+      <Footer />
     </div>
   );
 }

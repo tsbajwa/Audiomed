@@ -6,3 +6,19 @@
     font-size: 18px;
   }
 }
+
+@media screen and (min-width: $tablet-potrait-up) {
+  .demo {
+    .youtube {
+      width: 30vw;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-up) {
+  .demo {
+    .youtube {
+      width: 330px;
+    }
+  }
+}
