@@ -24,17 +24,23 @@ const tableInfo = [
 
 export default function PricingTable() {
   return (
-    <div className ='pricing-table'>
-     {tableInfo.map(details =>
-      (
-        <Table
-        title={details.title}
-        img={details.img}
-        price={details.price}
-        info={details.info}
-        />
-      ),
-     )}
+    <div>
+      <div className='pricing-table-heading'>
+        <h3>You're seconds away from accessing Audiomed</h3>
+        <h4>Select the package thats right for you</h4>
+      </div>
+      <div className ='pricing-table'>
+      {tableInfo.map(details =>
+        (
+          <Table
+          title={details.title}
+          img={details.img}
+          price={details.price}
+          info={details.info}
+          />
+        ),
+      )}
+      </div>
     </div>
   );
 }

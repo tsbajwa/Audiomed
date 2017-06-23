@@ -30,10 +30,3 @@ Table.propTypes = {
   price: PropTypes.string,
   link: PropTypes.string,
 };
-
-Table.defaultProps = {
-  title: 'Titlee',
-  img: '../assets/essential-bundle.png',
-  info: ['item1', 'info2', 'Soon'],
-  price: '$39',
-};

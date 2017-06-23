@@ -6,8 +6,8 @@ export default function FAQ() {
       <div>
         <h4>Frequently Asked Questions</h4>
       </div>
-      <div className='faq-answers'>
-        <div>
+      <div className='faq-text-container'>
+        <div className='faq-left'>
           <h3>Where can I listen to your program?</h3>
           <p>Our audio system comes in mp3 format, allowing you to listen to it on your phone, ipad, tablet, laptop, computer or stereo. Our program was designed to be used everywhere.</p>
           <h3>How long will it take me to learn anatomy?</h3>
