@@ -1,4 +1,4 @@
-.callToAction {
+.callToAction-container {
   background: $green;
 }
 
@@ -6,7 +6,8 @@
   .callToAction {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding-left: 10px;
 
     h4 {
       margin: 1em 20px 1em 0;

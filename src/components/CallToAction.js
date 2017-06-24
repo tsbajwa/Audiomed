@@ -4,13 +4,15 @@ import Button from './Button';
 
 export default function CallToAction(props) {
   return (
-    <div className='callToAction'>
-      <h4>{props.text}</h4>
-      <Button
-      btn={props.buttonClass}
-      link={props.link}
-      buttonText={props.buttonText}
-      />
+    <div className='callToAction-container'>
+      <div className='callToAction'>
+        <h4>{props.text}</h4>
+        <Button
+        btn={props.buttonClass}
+        link={props.link}
+        buttonText={props.buttonText}
+        />
+      </div>
     </div>
   );
 }

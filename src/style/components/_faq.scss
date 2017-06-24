@@ -7,10 +7,12 @@
 @media screen and (min-width: $tablet-potrait-up) {
   .faq {
     text-align: left;
-    padding: 0 100px;
 
     h4 {
       text-align: center;
+    }
+    .faq-text-container {
+      padding-left: 15px;
     }
   }
 
@@ -20,8 +22,10 @@
 
 @media screen and (min-width: $tablet-landscape-up) {
   .faq {
+    padding: none;
     .faq-text-container {
       display: flex;
+      padding: none;
     }
     .faq-left{
       padding-right: 15px;

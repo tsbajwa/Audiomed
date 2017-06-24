@@ -1,18 +1,17 @@
 
-.pricing-table-heading {
-  h3 {
-    font-size: 34px;
-    margin-bottom: 0px;
-  }
-  h4 {
-    color: $dark-gray;
-    margin-top: 5px;
-    font-size: 15px;
+.pricing-table-container {
+  .pricing-table-heading {
+    h3 {
+      font-size: 34px;
+      margin-bottom: 0px;
+    }
+    h4 {
+      color: $dark-gray;
+      margin-top: 5px;
+      font-size: 15px;
+    }
   }
 }
-
-
-
 
 
 @media screen and (max-width: $phone-only) {
@@ -23,11 +22,13 @@
 }
 
 @media screen and (min-width: $tablet-potrait-up)  {
-  .pricing-table {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding-top: 25px; 
+  .pricing-table-container {
+    .pricing-table {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      padding-top: 25px;
+    }
   }
 }
 
