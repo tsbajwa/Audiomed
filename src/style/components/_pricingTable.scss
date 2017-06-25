@@ -22,7 +22,6 @@
 }
 
 @media screen and (min-width: $tablet-potrait-up)  {
-  .pricing-table-container {
     .pricing-table {
       display: flex;
       justify-content: center;
@@ -30,7 +29,6 @@
       padding-top: 25px;
     }
   }
-}
 
 @media screen and (min-width: $tablet-landscape-up) {
   .pricing-table {

@@ -12,16 +12,12 @@ ul {
     padding: 0;
 }
 
-
-
-
-.container div{
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.container > div {
-  min-width: 100%;
-  max-width: none;
-  margin: 0 auto;
+.container {
+  div {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .table {
+    margin: 0;
+  }
 }
