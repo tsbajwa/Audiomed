@@ -21,20 +21,22 @@
     text-align: left;
     padding: 0 0 0 10px;
 
-    .img-container {
-      display: flex;
-      align-items: center;
-      padding-left: 50px;
+    .benefit-list {
+      width: 70%;
+    }
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
 
 @media screen and (min-width: $tablet-landscape-up) {
 .benefit {
-  max-width: 900px;
-  padding-top: 85px;
+  padding-top: 25px;
   .benefit-text {
-    padding-left: 70px;
+    padding-left: 30px;
+    padding-right: 10px;
   }
 }
 }

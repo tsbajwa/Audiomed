@@ -25,16 +25,18 @@ const info = [
 export default function Benefit() {
   return (
     <div className='benefit'>
-      <ul>
-        {info.map((value, index) => (
-            <li key={index}>
-              <div className='benefit-text'>
-                <h3>{value.icon} {value.heading}</h3>
-                <p>{value.paragraph}</p>
-              </div>
-            </li>
-          ))}
-      </ul>
+      <div className='benefit-list'>
+        <ul>
+          {info.map((value, index) => (
+              <li key={index}>
+                <div className='benefit-text'>
+                  <h3>{value.icon} {value.heading}</h3>
+                  <p>{value.paragraph}</p>
+                </div>
+              </li>
+            ))}
+        </ul>
+      </div>
       <div className='img-container'>
         <img src='../assets/smiling-doctor.png'></img>
       </div>
