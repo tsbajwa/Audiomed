@@ -1,6 +1,6 @@
 import React from 'react';
 
-const modules = ['Skeletal', 'Alimentary', 'Kidney-Urine', 'Integumental', 'Endocrine', 'Cardiovascular', 'Reproductive', 'Pulmonary', 'Nervous', 'Muscle', 'Miscellaneous', 'Lymphoid'];
+const modules = ['Skeletal', 'Alimentary', 'Renal', 'Integumental', 'Endocrine', 'Cardiovascular', 'Reproductive', 'Pulmonary', 'Nervous', 'Muscle', 'Miscellaneous', 'Lymphoid'];
 
 export default function Module() {
   return (
