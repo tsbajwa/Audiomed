@@ -14,7 +14,7 @@ export default function Footer() {
             <a href='#'>Youtube Channel</a>
           </div>
           <div className='footer-column'>
-            <img src='../assets/logo-white.png'></img>
+            <img src='../assets/logo-footer.png'></img>
             <p className='copyright'>Copyright 2017 by Audiomed</p>
           </div>
         </div>
