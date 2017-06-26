@@ -1,7 +1,8 @@
 .footer {
   background: $gray;
   text-align: left;
-  padding-left: 10px;
+  min-width: 100%;
+
   img {
     padding-top: 10px;
   }
@@ -15,13 +16,18 @@
 }
 
 @media screen and (min-width: $tablet-potrait-up) {
-  .footer {
+  .footer-column-container {
     display: flex;
-    justify-content: space-around;
 
     .footer-column {
-      max-width: 60%;
+      width: 60%;
       margin: 0 10px;
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+    .footer-middle {
+      text-align: center;
     }
   }
 }
