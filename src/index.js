@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './components/Helpers/Routes';
+import Routes from './components/Routing/Routes';
 
 require('./style/main.scss');
 
