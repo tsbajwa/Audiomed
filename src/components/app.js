@@ -8,7 +8,6 @@ import FAQ from './FAQ';
 import Testimonial from './Testimonial';
 import PricingTable from './PricingTable';
 import Footer from './Footer';
-import Updating from './Updating';
 
 export default function App() {
   return (
@@ -28,7 +27,6 @@ export default function App() {
       buttonText='Get Sample'
       />
       <Footer />
-      <Updating />
     </div>
   );
 }
