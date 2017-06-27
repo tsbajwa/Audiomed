@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Button(props) {
   return (
     <div className='btnContainer'>
-      <Link to='/updating'type='button'className={props.buttonClass}>{props.buttonText}</Link>
+      <Link to={props.buttonLink} type='button'className={props.buttonClass}>{props.buttonText}</Link>
     </div>
   );
 }
@@ -13,10 +13,12 @@ export default function Button(props) {
 Button.defaultProps = {
   buttonClass: 'btn',
   buttonText: 'Buy Now',
+  buttonLink: '/updating',
 };
 
 Button.propTypes = {
   buttonClass: PropTypes.string,
   buttonText: PropTypes.string,
+  buttonLink: PropTypes.string,
 };
 
