@@ -16,7 +16,7 @@ export default function Banner() {
           <h2>Stop wasting hours upon hours trying to learn Anatomy. There is an easier way.</h2>
           <h5>
           Audiomed is a learning system designed to teach you anatomy faster, saving you time and energy.
-          With over 250 anatomy mnemonic recordings, it's the smarter way to learn.
+          With over 250 anatomy mnemonic recordings, it&apos;s the smarter way to learn.
           </h5>
         </div>
       </div>

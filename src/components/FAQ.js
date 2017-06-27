@@ -18,8 +18,8 @@ export default function FAQ() {
           <h3>How does Audiomed help me learn faster?</h3>
           <p>Audiomed was designed from experience and scientific research on teachning methodologies. There are three main ways the rapid learner program will save you time.</p>
           <p>Research has shown that mnemonics are one of the easist ways to retain and recall large amount of information. The increase in retrevial links, associations and memory patterns are benefits of mnemonics over generic study methods.</p>
-          <p>Audio can be a quicker and easier method of learning allowing one to utilize downtime more effectively, and to also study for longer periods of time. Accoustic similairties furter aid in retaining information.</p>
-          <p>With our essential package,  you have the ability to learn with both audio and visual cues.  Learning information from multiple stimuli has been shown to  further increase information retention.</p>
+          <p>Audio can be a quicker and easier method of learning allowing one to utilize downtime more effectively, and to also study for longer periods of time. Accoustic similairties further aid in retaining information.</p>
+          <p>With our essential package,  you have the ability to learn with both audio and visual cues.  Learning information from multiple stimuli has been shown to further increase information retention.</p>
         </div>
       </div>
     </div>

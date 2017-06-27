@@ -26,7 +26,7 @@ export default function PricingTable() {
   return (
     <div className='pricing-table-container'>
       <div className='pricing-table-heading'>
-        <h3>You're seconds away from accessing Audiomed</h3>
+        <h3>You&apos;re seconds away from accessing Audiomed</h3>
         <h4>Select the package thats right for you</h4>
       </div>
       <div className ='pricing-table'>
