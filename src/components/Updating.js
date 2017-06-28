@@ -1,4 +1,5 @@
 import React from 'react';
+import test from '../utils/api';
 
 class Updating extends React.Component {
   constructor(props) {
@@ -13,7 +14,8 @@ class Updating extends React.Component {
     this.setState({ email: event.target.value });
   }
   handleSubmit(event) {
-    alert('Thanks, we will be in touch once the updated material launches');
+    test();
+    //console.log('Thanks, we will be in touch once the updated material launches');
   }
   render() {
     return (

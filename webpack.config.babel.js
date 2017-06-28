@@ -9,6 +9,11 @@ export default {
     path: `${__dirname}/src`,
     filename: 'index_bundle.js',
   },
+  devServer: {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  },
 
   plugins: [
     new HtmlWebpackPlugin({ template: `${__dirname}/src/index.html`, filename: 'index.html', inject: 'body' }),
