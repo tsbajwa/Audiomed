@@ -3,13 +3,13 @@ import React from 'react';
 export default function Banner() {
   return (
     <div className='banner'>
-      <div className='banner-logo'>
-          <img src= '../assets/logo-white.png'></img>
+      <div>
+          <img className='banner__img'src= '../assets/logo-white.png'></img>
       </div>
       <div className='banner-info'>
         <div className='banner-img-container'>
-          <img className='banner-mob-img' src='../assets/mobile-banner.png'></img>
-          <img className='banner-img' src='../assets/banner.png'></img>
+          <img className='banner__img--mob' src='../assets/mobile-banner.png'></img>
+          <img className='banner__img' src='../assets/banner.png'></img>
         </div>
         <div className='banner-text'>
           <h1>Learning Anatomy made Simple</h1>

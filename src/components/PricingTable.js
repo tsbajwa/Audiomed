@@ -30,9 +30,10 @@ export default function PricingTable() {
         <h4>Select the package thats right for you</h4>
       </div>
       <div className ='pricing-table'>
-      {tableInfo.map(details =>
+      {tableInfo.map((details, index) =>
         (
           <Table
+          key={index}
           title={details.title}
           img={details.img}
           price={details.price}
