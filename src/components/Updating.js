@@ -8,25 +8,29 @@ class Updating extends React.Component {
       email: '',
     };
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
   handleChange(event) {
     this.setState({ email: event.target.value });
   }
   /*eslint-disable */
-  handleSubmit(event) {         
+  handleSubmit(event) {
     event.preventDefault();
-    alert('Thanks, we will be in touch once the updated material launches');  
+    alert('Thanks, we will be in touch once the updated material launches');
   }
-  /*eslint-enable */
+  /* eslint-enable */
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Email:
-          <input type='text' value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type='submit' value='Submit' />
-      </form>
+      <div className='updating'>
+        <h2>We are currently upgrading Audiomed. Please leave your email below and we will let you know once our program has been updated</h2>
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            Email:
+            <input type='text' value={this.state.value} onChange={this.handleChange} />
+          </label>
+          <input type='submit' value='Submit' />
+        </form>
+      </div>
     );
   }
 }
