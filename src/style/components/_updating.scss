@@ -10,4 +10,16 @@
     margin:0 auto;
     padding-bottom: 15px;
   }
+
+  input {
+    padding: 6px 0 6px 0;
+    min-width: 200px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 11px 10px 9px;;
+    border: none;
+    background: lightgreen;
+  }
 }
