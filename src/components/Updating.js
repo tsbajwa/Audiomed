@@ -9,8 +9,8 @@ export default class Updating extends React.Component {
         inputPlaceholder: "Enter email",
         btnLabel: 'Submit',
         sending: 'Sending',
-        success: 'Success',
-        error: 'Error mate'
+        success: 'Thankyou. We have received your email.',
+        error: 'Please enter a valid email'
       },
       styles: {
         sending: {
