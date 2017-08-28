@@ -1,15 +1,18 @@
 import React from 'react';
+import logoWhite from '../assets/logo-white.png';
+import mobileBanner from '../assets/mobile-banner.png';
+import banner from '../assets/banner.png';
 
 export default function Banner() {
   return (
     <div className='banner'>
       <div>
-          <img src= '../assets/logo-white.png'></img>
+          <img src={logoWhite} alt='Audiomed logo'></img>
       </div>
       <div className='banner-info'>
         <div className='banner-img-container'>
-          <img className='banner-mob-img' src='../assets/mobile-banner.png'></img>
-          <img className='banner-img' src='../assets/banner.png'></img>
+          <img className='banner-mob-img' src={mobileBanner} alt='Course material'></img>
+          <img className='banner-img' src={banner} alt='Course material'></img>
         </div>
         <div className='banner-text'>
           <h1>Learning Anatomy made Simple</h1>

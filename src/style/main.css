@@ -1,0 +1,301 @@
+body {
+  font-family: 'Montserrat';
+  font-size: 14px; }
+
+h1 {
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 5.26px; }
+
+h2 {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #50C6DB; }
+
+h3 {
+  font-size: 16px;
+  font-weight: 500; }
+
+h5 {
+  font-family: 'Lato';
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px; }
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF; }
+
+@media screen and (min-width: 900px) {
+  p {
+    letter-spacing: -0.19px; }
+  h1 {
+    font-size: 44px; }
+  h3 {
+    font-size: 16px;
+    letter-spacing: -0.2px; }
+  h4 {
+    font-size: 18px;
+    letter-spacing: -0.15px; }
+  h5 {
+    font-size: 16px;
+    line-height: 30px; } }
+
+.banner {
+  align-items: center;
+  background: #01516E;
+  padding-bottom: 20px;
+  min-width: 100%; }
+  .banner img {
+    padding-top: 20px; }
+  .banner h2 {
+    display: none; }
+
+@media screen and (max-width: 599px) {
+  .banner .banner-img {
+    display: none; } }
+
+@media screen and (min-width: 600px) {
+  .banner .banner-mob-img {
+    display: none; } }
+
+@media screen and (min-width: 900px) {
+  .banner {
+    text-align: left; }
+    .banner .banner-info {
+      display: flex;
+      padding-top: 75px; }
+    .banner .banner-text {
+      padding-top: 25px; }
+    .banner h2 {
+      display: block; }
+    .banner h5 {
+      padding-left: 10px; } }
+
+.callToAction-container {
+  background: #50E3C2;
+  min-width: 100%; }
+
+@media screen and (min-width: 600px) {
+  .callToAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px; }
+    .callToAction h4 {
+      margin: 1em 20px 1em 0; } }
+
+.btn {
+  padding: 5px 20px;
+  border: 2px solid #E35071;
+  background-color: #E35071;
+  color: #FFFFFF;
+  text-decoration: none; }
+
+@media screen and (max-width: 599px) {
+  .btn {
+    display: flex;
+    justify-content: center; } }
+
+.container {
+  display: flex;
+  flex-direction: column; }
+
+.benefit {
+  display: flex;
+  justify-content: space-between; }
+  .benefit h3 {
+    padding-top: 10px; }
+
+@media screen and (max-width: 599px) {
+  .benefit .icon, .benefit img {
+    display: none; } }
+
+@media screen and (min-width: 600px) {
+  .benefit {
+    text-align: left;
+    padding: 0 0 0 10px; }
+    .benefit .benefit-list {
+      width: 70%; }
+    .benefit img {
+      width: 100%;
+      height: auto; } }
+
+@media screen and (min-width: 900px) {
+  .benefit {
+    padding-top: 25px; }
+    .benefit .benefit-text {
+      padding-left: 30px;
+      padding-right: 10px; } }
+
+.demo {
+  background: #01516E;
+  padding-bottom: 15px;
+  min-width: 100%; }
+  .demo h4 {
+    font-size: 18px; }
+
+@media screen and (min-width: 600px) {
+  .demo .youtube {
+    width: 30vw; } }
+
+@media screen and (min-width: 1200px) {
+  .demo .youtube {
+    width: 330px; } }
+
+.module h4 {
+  color: #000000; }
+
+.module .module-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center; }
+
+.module .module-single {
+  align-content: space-around;
+  width: 200px; }
+
+@media screen and (min-width: 1000px) {
+  .module .module-single {
+    width: 166px; } }
+
+.faq h4 {
+  color: #000000; }
+
+@media screen and (min-width: 600px) {
+  .faq {
+    text-align: left; }
+    .faq h4 {
+      text-align: center; }
+    .faq .faq-text-container {
+      padding-left: 15px; } }
+
+@media screen and (min-width: 900px) {
+  .faq {
+    padding: none; }
+    .faq .faq-text-container {
+      display: flex;
+      padding: none; }
+    .faq .faq-left {
+      padding-right: 15px; } }
+
+.quote {
+  display: inline-block;
+  padding: 0 20px; }
+  .quote .author {
+    text-align: right;
+    line-height: 0;
+    font-size: 11px;
+    margin-top: -5px; }
+
+.table {
+  background: #FFFFFF; }
+  .table .info {
+    border-bottom: 1px solid #eee;
+    padding: 1.2em;
+    color: #D8D8D8; }
+  .table .info:last-of-type {
+    padding: 0; }
+  .table .title {
+    font-size: 25px;
+    padding: 10px;
+    color: #262626; }
+  .table .price {
+    font-size: 30px; }
+  .table .info-list:last-of-type {
+    background: #01516E; }
+
+@media screen and (min-width: 600px) {
+  .table {
+    min-width: 200px;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 2px; }
+    .table .info:last-of-type {
+      padding: 5px 0 15px 0; } }
+
+.pricing-table-container .pricing-table-heading h3 {
+  font-size: 34px;
+  margin-bottom: 0px; }
+
+.pricing-table-container .pricing-table-heading h4 {
+  color: #262626;
+  margin-top: 5px;
+  font-size: 15px; }
+
+@media screen and (max-width: 599px) {
+  .pricing-table {
+    margin: 0 auto;
+    width: 300px; } }
+
+@media screen and (min-width: 600px) {
+  .pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 25px; } }
+
+@media screen and (min-width: 900px) {
+  .pricing-table .table-Essential .title {
+    font-size: 32px;
+    color: #000000; } }
+
+.testimonial {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px; }
+
+.footer {
+  background: #D8D8D8;
+  text-align: left;
+  min-width: 100%; }
+  .footer img {
+    padding-top: 10px; }
+  .footer .title {
+    font-weight: 600;
+    font-size: 14px; }
+  .footer .copyright {
+    font-size: 0.8em; }
+
+@media screen and (min-width: 600px) {
+  .footer-column-container {
+    display: flex; }
+    .footer-column-container .footer-column {
+      width: 60%;
+      margin: 0 10px; }
+      .footer-column-container .footer-column:last-of-type {
+        text-align: right; }
+    .footer-column-container .footer-middle {
+      text-align: center; } }
+
+.updating {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  justify-content: center; }
+  .updating h2 {
+    font-size: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 15px; }
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  min-width: 100%;
+  max-width: none;
+  background-color: #FAFAFA; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.container div {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.container .table {
+  margin: 0; }

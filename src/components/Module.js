@@ -7,13 +7,15 @@ export default function Module() {
       <div className='module'>
         <h4>Twelve Comphrensive Modules</h4>
         <div className='module-container'>
-          {modules.map(module =>
-            (
+          {modules.map((module) => {
+            const imgUrl = require(`../assets/${module}.png`)
+            return (
               <div key={module} className='module-single'>
-                <img src= {`../assets/${module}.png`}></img>
+                <img src={imgUrl}></img>
                 <p>{module}</p>
               </div>
-            ))}
+            )
+          })}
         </div>
       </div>
   );

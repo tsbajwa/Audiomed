@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Updating extends React.Component {
+export default class Updating extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -35,4 +35,3 @@ class Updating extends React.Component {
   }
 }
 
-module.exports = Updating;

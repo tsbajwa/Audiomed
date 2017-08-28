@@ -2,6 +2,7 @@ import React from 'react';
 import FaBook from 'react-icons/lib/fa/book';
 import FalocationArrow from 'react-icons/lib/fa/location-arrow';
 import FaFastForward from 'react-icons/lib/fa/fast-forward';
+import smilingDoctor from '../assets/smiling-doctor.png';
 
 const info = [
   {
@@ -38,7 +39,7 @@ export default function Benefit() {
         </ul>
       </div>
       <div className='img-container'>
-        <img src='../assets/smiling-doctor.png'></img>
+        <img src={smilingDoctor} alt='smiling doctor'></img>
       </div>
     </div>
   );
