@@ -6,7 +6,7 @@ import Routes from './Helpers/Routes';
 import registerServiceWorker from './registerServiceWorker';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-105588037-1');
+ReactGA.initialize('UA-105588037-1', { debug: true });
 
 function logPageView() {
   ReactGA.set({ page: window.location.pathname });
