@@ -13,10 +13,14 @@ export default function Table(props) {
           </div>
         </li>
         <li className='price'>{props.price}</li>
-        {props.info.map((info, index) => (<li key ={index} className='info'>{info}</li>))}
+        {props.info.map((info, index) => (
+          <li key={index} className='info'>{info}</li>
+        ))}
         <li className='info'>
           <Button
-        link={props.link}/>
+            link={props.link}
+            label={props.price}
+            />
         </li>
       </ul>
     </div>

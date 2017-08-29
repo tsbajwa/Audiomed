@@ -10,7 +10,7 @@ export default function CallToAction(props) {
         <Button
         btn={props.buttonClass}
         link={props.link}
-        buttonText={props.buttonText}
+        btnText={props.btnText}
         />
       </div>
     </div>
@@ -20,6 +20,7 @@ export default function CallToAction(props) {
 CallToAction.defaultProps = {
   text: 'Please insert some call to Action Text',
 };
+
 CallToAction.propTypes = {
   text: PropTypes.string.isRequired,
 };
@@ -27,6 +28,6 @@ CallToAction.propTypes = {
 
 CallToAction.propTypes = {
   buttonClass: PropTypes.string,
-  buttonText: PropTypes.string,
+  btnText: PropTypes.string,
   link: PropTypes.string,
 };

@@ -24,7 +24,7 @@ export default function App() {
       <FAQ />
       <CallToAction
       text='Get 10 free mnemonics delivered straight to your inbox'
-      buttonText='Get Sample'
+      btnText='Get Sample'
       />
       <Footer />
     </div>
