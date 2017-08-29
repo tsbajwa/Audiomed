@@ -9,7 +9,7 @@ export default function Table(props) {
         <li className='title'>{props.title}</li>
         <li>
           <div className ='image'>
-            <img src={props.img}></img>
+            <img src={props.img} alt='Buy now'></img>
           </div>
         </li>
         <li className='price'>{props.price}</li>

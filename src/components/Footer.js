@@ -1,4 +1,5 @@
 import React from 'react';
+import logoFooter from '../assets/logo-footer.png';
 
 export default function Footer() {
   return (
@@ -14,7 +15,7 @@ export default function Footer() {
             <a href='#'>Youtube Channel</a>
           </div>
           <div className='footer-column'>
-            <img src='../assets/logo-footer.png'></img>
+            <img src={logoFooter} alt='Audiomed logo'></img>
             <p className='copyright'>Copyright 2017 by Audiomed</p>
           </div>
         </div>

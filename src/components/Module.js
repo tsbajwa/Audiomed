@@ -11,13 +11,12 @@ export default function Module() {
             const imgUrl = require(`../assets/${module}.png`)
             return (
               <div key={module} className='module-single'>
-                <img src={imgUrl}></img>
+                <img src={imgUrl} alt={`${module}`}></img>
                 <p>{module}</p>
               </div>
             )
           })}
         </div>
-
       </div>
   );
 }

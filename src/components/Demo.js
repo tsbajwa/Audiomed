@@ -23,7 +23,7 @@ export default function Demo() {
         <h4>A glimpse of what you get</h4>
       </div>
       <div>
-       {youtube.map(value => <iframe className ='youtube' src={value.source} key={value.key}></iframe>)}
+       {youtube.map(value => <iframe title='Example Video' className ='youtube' src={value.source} key={value.key}></iframe>)}
       </div>
     </div>
   );
