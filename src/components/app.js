@@ -11,10 +11,10 @@ import Footer from './Footer';
 
 export default function App() {
   return (
-    <div className ='container'>
+    <div className='container'>
       <Banner />
       <CallToAction
-      text='Made by doctors, for health professionals and students'
+        text='Made by doctors, for health professionals and students'
       />
       <Benefit />
       <Demo />
@@ -23,8 +23,8 @@ export default function App() {
       <Testimonial />
       <FAQ />
       <CallToAction
-      text='Get 10 free mnemonics delivered straight to your inbox'
-      btnText='Get Sample'
+        text='Get 10 free mnemonics delivered straight to your inbox'
+        btnText='Get Sample'
       />
       <Footer />
     </div>

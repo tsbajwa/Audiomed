@@ -9,15 +9,15 @@ export default class Button extends React.Component {
     ReactGA.event({
       category: 'Button',
       action: `${this.props.btnText}`,
-      label: this.props.label ? `${this.props.label}` : 'Generic' ,
+      label: this.props.label ? `${this.props.label}` : 'Generic',
     })
   }
 
   render() {
     return (
-    <div className='btnContainer'>
-      <Link to={this.props.buttonLink} type='button'className={this.props.buttonClass} onClick={this.handleClick}>{this.props.btnText}</Link>
-    </div>
+      <div className='btnContainer'>
+        <Link to={this.props.buttonLink} type='button' className={this.props.buttonClass} onClick={this.handleClick}>{this.props.btnText}</Link>
+      </div>
     )
   }
 }

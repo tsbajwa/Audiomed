@@ -8,7 +8,7 @@ export default function Table(props) {
       <ul>
         <li className='title'>{props.title}</li>
         <li>
-          <div className ='image'>
+          <div className='image'>
             <img src={props.img} alt='Buy now'></img>
           </div>
         </li>
@@ -20,7 +20,7 @@ export default function Table(props) {
           <Button
             link={props.link}
             label={props.price}
-            />
+          />
         </li>
       </ul>
     </div>

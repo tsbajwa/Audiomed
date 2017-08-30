@@ -8,9 +8,9 @@ export default function CallToAction(props) {
       <div className='callToAction'>
         <h4>{props.text}</h4>
         <Button
-        btn={props.buttonClass}
-        link={props.link}
-        btnText={props.btnText}
+          btn={props.buttonClass}
+          link={props.link}
+          btnText={props.btnText}
         />
       </div>
     </div>

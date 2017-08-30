@@ -32,18 +32,18 @@ export default function PricingTable() {
         <h3>You&apos;re seconds away from accessing Audiomed</h3>
         <h4>Select the package thats right for you</h4>
       </div>
-      <div className ='pricing-table'>
-      {tableInfo.map((details, index) =>
-        (
-          <Table
-          key={index}
-          title={details.title}
-          img={details.img}
-          price={details.price}
-          info={details.info}
-          />
-        ),
-      )}
+      <div className='pricing-table'>
+        {tableInfo.map((details, index) =>
+          (
+            <Table
+              key={index}
+              title={details.title}
+              img={details.img}
+              price={details.price}
+              info={details.info}
+            />
+          ),
+        )}
       </div>
     </div>
   );

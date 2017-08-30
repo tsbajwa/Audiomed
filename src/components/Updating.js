@@ -30,8 +30,8 @@ export default class Updating extends React.Component {
     return (
       <div className='updating'>
         <h2>We are currently upgrading Audiomed. Please leave your email below to be notified when our program has been updated</h2>
-        <SubscribeFrom 
-        {...formProps}
+        <SubscribeFrom
+          {...formProps}
         />
       </div>
 
